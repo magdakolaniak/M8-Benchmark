@@ -4,7 +4,7 @@ import cors from 'cors';
 import listEndpoints from 'express-list-endpoints';
 import usersRouter from './users/index.js';
 import cookieParser from 'cookie-parser';
-import passport from 'passport';
+
 import accommodationsRouter from './accomodations/index.js';
 
 const server = express();

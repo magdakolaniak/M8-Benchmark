@@ -3,8 +3,6 @@ import express from 'express';
 import UserModel from './schema.js';
 import createError from 'http-errors';
 
-import passport from 'passport';
-
 import { JWTAuthMiddleware } from '../auth/middlewares.js';
 import { checkHostRole } from '../auth/host.js';
 import { refreshTokens, JWTAuthenticate } from '../auth/tools.js';
